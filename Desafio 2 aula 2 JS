@@ -1,0 +1,15 @@
+var numero = prompt ('Digite um número qualquer (positivo ou negativo).');
+var numeroConvertido = parseFloat (numero);
+
+if (isNaN(numeroConvertido)) {
+    alert ('Resposta inválida! Por favor digite um número.')
+}
+else if (numeroConvertido > 0) {
+    alert ('Numero positivo!');
+}
+else if (numeroConvertido < 0) {
+    alert ('Número negativo!');
+}
+else {
+    alert ('O número é zero!');
+}

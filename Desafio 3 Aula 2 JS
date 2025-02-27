@@ -1,0 +1,6 @@
+let nota = prompt ('Qual a sua pontuação?');
+nota = Number(nota);
+if (nota >= 100) {
+    alert ('Parabens, você venceu!');
+}
+else { alert ('Tente novamente para ganhar!') }
